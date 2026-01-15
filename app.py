@@ -73,7 +73,7 @@ def build_model():
 @st.cache_resource
 def load_trained_model():
     model = build_model()
-    model.load_weights("tesla_rnn.weights.h5")
+    model.load_weights("tesla_rnn_model.keras")
     return model
 
 model = load_trained_model()
@@ -121,3 +121,4 @@ if st.button("Predict"):
     })
 
     st.line_chart(combined_df)
+
