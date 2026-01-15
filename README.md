@@ -37,23 +37,19 @@ Optimizer: Adam
 Loss: Mean Squared Error (MSE)
 
 ## 📂 Project Structure
+
+```bash
 tesla_stock_price_prediction/
-
 │
-
 ├── app.py                     # Streamlit app
-
 ├── tesla_rnn_model.keras      # Trained RNN model
-
 ├── requirements.txt           # Python dependencies
-
 ├── README.md                  # Project documentation
-
 │
-
 └── data/
+    └── TSLA.csv               # Tesla stock dataset
 
-      └── TSLA.csv                # Tesla stock dataset
+```
 
 ## 🛠️ Installation & Setup (Local)
 1️⃣ Clone the Repository
