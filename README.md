@@ -26,15 +26,15 @@ The application allows users to:
 
 ## 🧠 Model Architecture
 
-SimpleRNN (50 units)
+- SimpleRNN (50 units)
 
-Dropout (0.2)
+- Dropout (0.2)
 
-Dense (1 output neuron)
+- Dense (1 output neuron)
 
-Optimizer: Adam
+- Optimizer: Adam
 
-Loss: Mean Squared Error (MSE)
+- Loss: Mean Squared Error (MSE)
 
 ## 📂 Project Structure
 
